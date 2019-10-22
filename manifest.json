@@ -1,0 +1,12 @@
+{
+    "name": "Remove Ad results",
+    "version": "1.0",
+    "description": "removing Ad results from google search page",
+    "content_scripts": [
+        {
+            "matches": ["https://www.google.com/search*"],
+            "js": ["./content_script.js"]
+        }
+    ],
+    "manifest_version": 2
+  }
