@@ -1,2 +1,7 @@
-const element = document.querySelector('#tvcap');
-element.parentElement.removeChild(element);
+const removeElement = (id) => {
+    const e = document.querySelector(id);
+    e.parentElement.removeChild(e);
+};
+
+removeElement('#tvcap');
+removeElement('#bottomads');
